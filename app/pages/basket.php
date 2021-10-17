@@ -68,7 +68,7 @@
                 <tr>
                     <td> </td>
                     <td><strong>Order Total:</strong></td>
-                    <td><strong>$<?php print($totalBefore - $discount + $delivery); ?></strong></td>
+                    <td><strong>$<?php print(number_format($totalBefore - $discount + $delivery,2, '.', '')); ?></strong></td>
                 </tr>
             </table>
         </div>
